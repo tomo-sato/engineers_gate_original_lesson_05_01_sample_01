@@ -48,7 +48,7 @@ public class InputBeans {
 	public Map<String, String> validation() {
 
 		if (StringUtil.isEmpty(this.name)) {
-			this.errors.put("name", "氏名は必須項目となります。");
+			this.errors.put("name", "名前は必須項目となります。");
 		}
 		if (StringUtil.isEmpty(this.body)) {
 			this.errors.put("body", "問い合わせ内容は必須項目となります。");
